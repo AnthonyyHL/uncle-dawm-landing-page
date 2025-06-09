@@ -1,0 +1,564 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Premium Ceramics - Quality Bathroom & Kitchen Fixtures</title>
+    <meta name="description" content="Transform your space with premium ceramics, bathroom fixtures, kitchen sinks, and quality tiles. Trusted by homeowners and professionals for 25+ years." />
+    <meta name="author" content="Premium Ceramics Store" />
+
+    <meta property="og:title" content="Premium Ceramics - Quality Bathroom & Kitchen Fixtures" />
+    <meta property="og:description" content="Transform your space with premium ceramics, bathroom fixtures, kitchen sinks, and quality tiles. Trusted by homeowners and professionals for 25+ years." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@ceramicstore" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['DM Sans', 'sans-serif'],
+              inter: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              'sage': {
+                100: '#f0f4f0',
+                200: '#d9e5d9',
+                300: '#b8ccb8',
+                400: '#8db18d',
+                500: '#6b946b',
+                600: '#557755',
+                700: '#445544',
+                800: '#334433',
+                900: '#223322'
+              }
+            },
+            spacing: {
+              '18': '4.5rem',
+              '88': '22rem',
+              '100': '25rem',
+            },
+            keyframes: {
+              'fade-in': {
+                '0%': {
+                  opacity: '0',
+                  transform: 'translateY(30px)'
+                },
+                '100%': {
+                  opacity: '1',
+                  transform: 'translateY(0)'
+                }
+              },
+              'slide-up': {
+                '0%': {
+                  opacity: '0',
+                  transform: 'translateY(60px)'
+                },
+                '100%': {
+                  opacity: '1',
+                  transform: 'translateY(0)'
+                }
+              }
+            },
+            animation: {
+              'fade-in': 'fade-in 0.8s ease-out',
+              'slide-up': 'slide-up 1s ease-out'
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+
+  <body class="min-h-screen bg-white font-sans">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="flex justify-between items-center h-20">
+          <!-- Left Logo -->
+          <div class="flex items-center">
+            <div class="w-8 h-8 bg-gray-900 rounded-full mr-3"></div>
+            <h1 class="text-xl font-semibold text-gray-900">Premium Ceramics</h1>
+          </div>
+          
+          <!-- Center Navigation (with blur background) -->
+          <div class="bg-white/80 backdrop-blur-md border border-gray-200 rounded-full px-8 py-2">
+            <div class="flex space-x-8">
+              <a href="#collections" class="text-gray-600 hover:text-gray-900 font-medium transition-colors text-sm">Collections</a>
+              <a href="#services" class="text-gray-600 hover:text-gray-900 font-medium transition-colors text-sm">Services</a>
+              <a href="#about" class="text-gray-600 hover:text-gray-900 font-medium transition-colors text-sm">About</a>
+              <a href="#contact" class="text-gray-600 hover:text-gray-900 font-medium transition-colors text-sm">Contact</a>
+            </div>
+          </div>
+          
+          <!-- Right Theme Toggle -->
+          <button id="themeToggle" class="w-10 h-10 rounded-full bg-gray-100 hover:bg-gray-200 flex items-center justify-center transition-colors">
+            <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ... keep existing code (Hero Section through Footer) -->
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center bg-sage-50 pt-20">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8 w-full">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <!-- Left Content -->
+          <div class="animate-fade-in">
+            <p class="text-sm text-gray-600 mb-6 tracking-wide">Transforming Spaces with Premium Materials</p>
+            
+            <h1 class="text-5xl lg:text-7xl font-bold text-gray-900 mb-8 leading-tight">
+              Leading the Way<br />
+              in <span class="text-sage-600">Premium</span><br />
+              Ceramics
+            </h1>
+            
+            <div class="flex flex-col sm:flex-row gap-4 mb-12">
+              <button class="bg-gray-900 text-white px-8 py-4 rounded-full font-medium hover:bg-gray-800 transition-colors">
+                Selected Projects
+              </button>
+              <button class="border border-gray-300 text-gray-700 px-8 py-4 rounded-full font-medium hover:bg-gray-50 transition-colors">
+                Work with Us
+              </button>
+            </div>
+
+            <!-- Trust Indicators -->
+            <div class="flex items-center space-x-8">
+              <div class="flex items-center space-x-2">
+                <div class="w-6 h-6 bg-sage-200 rounded-full"></div>
+                <div class="w-6 h-6 bg-sage-300 rounded-full"></div>
+                <div class="w-6 h-6 bg-sage-400 rounded-full"></div>
+              </div>
+              <div>
+                <div class="text-sm font-semibold text-gray-900">Expert Team</div>
+                <div class="text-xs text-gray-600">We are here to help your project become exceptional</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Image -->
+          <div class="relative">
+            <div class="aspect-square rounded-3xl overflow-hidden bg-sage-100">
+              <img src="https://images.unsplash.com/photo-1483058712412-4245e9b90334" alt="Premium ceramic bathroom fixtures" class="w-full h-full object-cover">
+            </div>
+            
+            <!-- Floating Card -->
+            <div class="absolute bottom-8 right-8 bg-white rounded-2xl p-6 shadow-xl max-w-xs">
+              <div class="flex items-center space-x-3 mb-3">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face" alt="Expert" class="w-10 h-10 rounded-full">
+                <img src="https://images.unsplash.com/photo-1494790108755-2616b612b1a5?w=40&h=40&fit=crop&crop=face" alt="Expert" class="w-10 h-10 rounded-full -ml-2">
+                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=40&h=40&fit=crop&crop=face" alt="Expert" class="w-10 h-10 rounded-full -ml-2">
+              </div>
+              <div class="text-sm font-semibold text-gray-900">Expert Team</div>
+              <div class="text-xs text-gray-600">We are here to help your project become exceptional</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Collections Section -->
+    <section class="py-32 bg-white" id="collections">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="text-center mb-20">
+          <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+            Discover Our Premium Collections
+          </h2>
+          <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+            From bathroom essentials to kitchen masterpieces, explore our curated selection of world-class ceramics and fixtures.
+          </p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="group cursor-pointer">
+            <div class="relative overflow-hidden rounded-3xl bg-sage-50">
+              <img src="https://images.unsplash.com/photo-1483058712412-4245e9b90334" alt="Bathroom Ceramics" class="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+              <div class="absolute bottom-8 left-8 text-white">
+                <h3 class="text-2xl font-bold mb-2">Bathroom Ceramics</h3>
+                <p class="text-sage-100">Premium toilets, sinks & accessories</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="group cursor-pointer">
+            <div class="relative overflow-hidden rounded-3xl bg-sage-50">
+              <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625" alt="Kitchen Solutions" class="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+              <div class="absolute bottom-8 left-8 text-white">
+                <h3 class="text-2xl font-bold mb-2">Kitchen Solutions</h3>
+                <p class="text-sage-100">Elegant sinks & modern faucets</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="group cursor-pointer">
+            <div class="relative overflow-hidden rounded-3xl bg-sage-50">
+              <img src="https://images.unsplash.com/photo-1524230572899-a752b3835840" alt="Tiles & Flooring" class="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+              <div class="absolute bottom-8 left-8 text-white">
+                <h3 class="text-2xl font-bold mb-2">Tiles & Flooring</h3>
+                <p class="text-sage-100">Beautiful ceramic & porcelain options</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="group cursor-pointer">
+            <div class="relative overflow-hidden rounded-3xl bg-sage-50">
+              <img src="https://images.unsplash.com/photo-1721322800607-8c38375eef04" alt="Natural Stone" class="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+              <div class="absolute bottom-8 left-8 text-white">
+                <h3 class="text-2xl font-bold mb-2">Natural Stone</h3>
+                <p class="text-sage-100">Luxurious marble & granite</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="py-32 bg-sage-50" id="services">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="text-center mb-20">
+          <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+            Why Choose Premium Ceramics?
+          </h2>
+          <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+            Experience the difference that quality, expertise, and dedication make in your renovation project.
+          </p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="text-center p-8">
+            <div class="w-16 h-16 bg-sage-200 rounded-2xl flex items-center justify-center mx-auto mb-6">
+              <svg class="w-8 h-8 text-sage-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 mb-4">Premium Quality</h3>
+            <p class="text-gray-600">Only the finest materials from trusted manufacturers worldwide</p>
+          </div>
+
+          <div class="text-center p-8">
+            <div class="w-16 h-16 bg-sage-200 rounded-2xl flex items-center justify-center mx-auto mb-6">
+              <svg class="w-8 h-8 text-sage-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 mb-4">Expert Installation</h3>
+            <p class="text-gray-600">Professional guidance and certified installation partnerships</p>
+          </div>
+
+          <div class="text-center p-8">
+            <div class="w-16 h-16 bg-sage-200 rounded-2xl flex items-center justify-center mx-auto mb-6">
+              <svg class="w-8 h-8 text-sage-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 mb-4">Competitive Pricing</h3>
+            <p class="text-gray-600">Best value guarantee with transparent, upfront pricing</p>
+          </div>
+
+          <div class="text-center p-8">
+            <div class="w-16 h-16 bg-sage-200 rounded-2xl flex items-center justify-center mx-auto mb-6">
+              <svg class="w-8 h-8 text-sage-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 11-6 0 3 3 0 016 0z"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 mb-4">Design Expertise</h3>
+            <p class="text-gray-600">Free design consultation to bring your vision to life</p>
+          </div>
+
+          <div class="text-center p-8">
+            <div class="w-16 h-16 bg-sage-200 rounded-2xl flex items-center justify-center mx-auto mb-6">
+              <svg class="w-8 h-8 text-sage-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 mb-4">Trusted Service</h3>
+            <p class="text-gray-600">Family-owned business with 25+ years of reliability</p>
+          </div>
+
+          <div class="text-center p-8">
+            <div class="w-16 h-16 bg-sage-200 rounded-2xl flex items-center justify-center mx-auto mb-6">
+              <svg class="w-8 h-8 text-sage-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 mb-4">Quick Delivery</h3>
+            <p class="text-gray-600">Fast turnaround times to keep your project on schedule</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-32 bg-white" id="about">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div>
+            <img src="https://images.unsplash.com/photo-1494790108755-2616b612b1a5" alt="Our showroom" class="w-full h-100 object-cover rounded-3xl">
+          </div>
+          
+          <div>
+            <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">
+              Welcome to Premium Ceramics
+            </h2>
+            <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+              For over 25 years, we've been dedicated to providing exceptional ceramics and bathroom fixtures to homeowners, contractors, and designers throughout the region.
+            </p>
+            <p class="text-lg text-gray-600 mb-10 leading-relaxed">
+              Our extensive showroom features the latest designs and innovations in ceramic technology, backed by our expert consultation services and professional installation partnerships.
+            </p>
+            <button class="bg-gray-900 text-white px-8 py-4 rounded-full font-medium hover:bg-gray-800 transition-colors">
+              Visit Our Showroom
+            </button>
+            
+            <div class="grid grid-cols-3 gap-8 mt-12">
+              <div class="text-center">
+                <div class="text-3xl font-bold text-gray-900 mb-2">25+</div>
+                <div class="text-sm text-gray-600">Years Experience</div>
+              </div>
+              <div class="text-center">
+                <div class="text-3xl font-bold text-gray-900 mb-2">10K+</div>
+                <div class="text-sm text-gray-600">Happy Customers</div>
+              </div>
+              <div class="text-center">
+                <div class="text-3xl font-bold text-gray-900 mb-2">100%</div>
+                <div class="text-sm text-gray-600">Quality Guarantee</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-32 bg-sage-50" id="contact">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="text-center mb-20">
+          <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+            Get In Touch
+          </h2>
+          <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+            Ready to transform your space? Contact us for expert consultation and premium ceramic solutions.
+          </p>
+        </div>
+        
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+          <div>
+            <div class="space-y-8">
+              <div class="flex items-start gap-4">
+                <div class="w-12 h-12 bg-sage-200 rounded-2xl flex items-center justify-center flex-shrink-0">
+                  <svg class="w-6 h-6 text-sage-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="text-lg font-bold text-gray-900 mb-2">Visit Our Showroom</h3>
+                  <p class="text-gray-600">123 Ceramic Avenue, Design District<br />Your City, State 12345</p>
+                </div>
+              </div>
+              
+              <div class="flex items-start gap-4">
+                <div class="w-12 h-12 bg-sage-200 rounded-2xl flex items-center justify-center flex-shrink-0">
+                  <svg class="w-6 h-6 text-sage-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="text-lg font-bold text-gray-900 mb-2">Call Us</h3>
+                  <p class="text-gray-600">(555) 123-4567</p>
+                </div>
+              </div>
+              
+              <div class="flex items-start gap-4">
+                <div class="w-12 h-12 bg-sage-200 rounded-2xl flex items-center justify-center flex-shrink-0">
+                  <svg class="w-6 h-6 text-sage-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="text-lg font-bold text-gray-900 mb-2">Business Hours</h3>
+                  <p class="text-gray-600">
+                    Monday - Friday: 8:00 AM - 6:00 PM<br />
+                    Saturday: 9:00 AM - 5:00 PM<br />
+                    Sunday: 11:00 AM - 4:00 PM
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-white rounded-3xl p-8 shadow-sm">
+            <h3 class="text-2xl font-bold text-gray-900 mb-8">Request a Quote</h3>
+            
+            <form class="space-y-6" id="quoteForm">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <input type="text" placeholder="First Name" class="p-4 border border-gray-200 rounded-2xl focus:border-sage-400 focus:outline-none transition-colors">
+                <input type="text" placeholder="Last Name" class="p-4 border border-gray-200 rounded-2xl focus:border-sage-400 focus:outline-none transition-colors">
+              </div>
+              
+              <input type="email" placeholder="Email" class="w-full p-4 border border-gray-200 rounded-2xl focus:border-sage-400 focus:outline-none transition-colors">
+              <input type="tel" placeholder="Phone" class="w-full p-4 border border-gray-200 rounded-2xl focus:border-sage-400 focus:outline-none transition-colors">
+              
+              <select class="w-full p-4 border border-gray-200 rounded-2xl focus:border-sage-400 focus:outline-none transition-colors">
+                <option>Bathroom Renovation</option>
+                <option>Kitchen Upgrade</option>
+                <option>New Construction</option>
+                <option>Tile Installation</option>
+                <option>Other</option>
+              </select>
+              
+              <textarea placeholder="Project Details" rows="5" class="w-full p-4 border border-gray-200 rounded-2xl focus:border-sage-400 focus:outline-none transition-colors resize-none"></textarea>
+              
+              <button type="submit" class="w-full bg-gray-900 hover:bg-gray-800 text-white py-4 rounded-2xl font-medium transition-colors">
+                Send Request
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-20">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+          <div>
+            <div class="flex items-center mb-6">
+              <div class="w-8 h-8 bg-white rounded-full mr-3"></div>
+              <h3 class="text-xl font-semibold">Premium Ceramics</h3>
+            </div>
+            <p class="text-gray-300 mb-8 leading-relaxed">
+              Your trusted partner for quality ceramics and bathroom fixtures. 
+              Transforming spaces with exceptional craftsmanship for over 25 years.
+            </p>
+          </div>
+          
+          <div>
+            <h4 class="text-lg font-semibold mb-6">Collections</h4>
+            <ul class="space-y-3 text-gray-300">
+              <li><a href="#" class="hover:text-white transition-colors">Bathroom Fixtures</a></li>
+              <li><a href="#" class="hover:text-white transition-colors">Kitchen Solutions</a></li>
+              <li><a href="#" class="hover:text-white transition-colors">Ceramic Tiles</a></li>
+              <li><a href="#" class="hover:text-white transition-colors">Natural Stone</a></li>
+            </ul>
+          </div>
+          
+          <div>
+            <h4 class="text-lg font-semibold mb-6">Services</h4>
+            <ul class="space-y-3 text-gray-300">
+              <li><a href="#" class="hover:text-white transition-colors">Design Consultation</a></li>
+              <li><a href="#" class="hover:text-white transition-colors">Installation Services</a></li>
+              <li><a href="#" class="hover:text-white transition-colors">Custom Solutions</a></li>
+              <li><a href="#" class="hover:text-white transition-colors">Project Planning</a></li>
+            </ul>
+          </div>
+          
+          <div>
+            <h4 class="text-lg font-semibold mb-6">Contact</h4>
+            <div class="space-y-4 text-gray-300">
+              <p>123 Ceramic Avenue<br />Design District<br />Your City, State 12345</p>
+              <p>(555) 123-4567</p>
+              <p>info@premiumceramics.com</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="border-t border-gray-700 mt-16 pt-8">
+          <div class="flex flex-col md:flex-row justify-between items-center">
+            <p class="text-gray-400 text-sm">
+              © 2024 Premium Ceramics. All rights reserved.
+            </p>
+            <div class="flex space-x-6 mt-4 md:mt-0">
+              <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Privacy Policy</a>
+              <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Terms of Service</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Theme toggle functionality
+      document.getElementById('themeToggle').addEventListener('click', function() {
+        document.body.classList.toggle('dark');
+      });
+
+      // Form submission handlers
+      document.getElementById('quoteForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        alert('Thank you for your quote request! We will contact you within 24 hours.');
+      });
+
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute('href'));
+          if (target) {
+            target.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+            });
+          }
+        });
+      });
+
+      // Smooth scrolling for anchor links
+      window.addEventListener('scroll', function() {
+        const nav = document.querySelector('nav');
+        if (window.scrollY > 50) {
+          nav.classList.add('bg-white');
+          nav.classList.remove('bg-white/95');
+        } else {
+          nav.classList.add('bg-white/95');
+          nav.classList.remove('bg-white');
+        }
+      });
+
+      // Animation on scroll
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+      };
+
+      const observer = new IntersectionObserver(function(entries) {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('animate-fade-in');
+          }
+        });
+      }, observerOptions);
+
+      // Observe sections for animation
+      document.querySelectorAll('section').forEach(section => {
+        observer.observe(section);
+      });
+    </script>
+
+    <script>
+      // Theme toggle functionality
+      document.getElementById('themeToggle').addEventListener('click', function() {
+        document.body.classList.toggle('dark');
+      });
+
+      // ... keep existing code (form submission and other JavaScript) -->
+    </script>
+  </body>
+</html>
