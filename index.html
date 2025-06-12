@@ -525,5 +525,13 @@
         color-scheme: dark;
     }
     </style>
+
+    <script type="module">
+        import { setupContactForm } from './js/firebase.js';
+
+        window.addEventListener('DOMContentLoaded', () => {
+            setupContactForm();
+        });
+    </script>
     </body>
 </html>
