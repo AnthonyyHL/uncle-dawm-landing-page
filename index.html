@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -150,7 +149,7 @@
           </div>
 
           <!-- Right Image -->
-          <div class="relative">
+          <div class="relative" id="right-image">
             <div class="aspect-square rounded-3xl overflow-hidden bg-sage-100">
               <img src="https://images.unsplash.com/photo-1483058712412-4245e9b90334" alt="Premium ceramic bathroom fixtures" class="w-full h-full object-cover">
             </div>
@@ -183,7 +182,7 @@
         </div>
         
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div class="group cursor-pointer">
+          <div class="group cursor-pointer" id="bathroom-ceramics">
             <div class="relative overflow-hidden rounded-3xl bg-sage-50">
               <img src="https://images.unsplash.com/photo-1483058712412-4245e9b90334" alt="Bathroom Ceramics" class="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-500">
               <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -194,7 +193,7 @@
             </div>
           </div>
 
-          <div class="group cursor-pointer">
+          <div class="group cursor-pointer" id="kitchen-ceramics">
             <div class="relative overflow-hidden rounded-3xl bg-sage-50">
               <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625" alt="Kitchen Solutions" class="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-500">
               <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -205,7 +204,7 @@
             </div>
           </div>
 
-          <div class="group cursor-pointer">
+          <div class="group cursor-pointer" id="tiles">
             <div class="relative overflow-hidden rounded-3xl bg-sage-50">
               <img src="https://images.unsplash.com/photo-1524230572899-a752b3835840" alt="Tiles & Flooring" class="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-500">
               <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -216,7 +215,7 @@
             </div>
           </div>
 
-          <div class="group cursor-pointer">
+          <div class="group cursor-pointer" id="natural-stones">
             <div class="relative overflow-hidden rounded-3xl bg-sage-50">
               <img src="https://images.unsplash.com/photo-1721322800607-8c38375eef04" alt="Natural Stone" class="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-500">
               <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -560,5 +559,7 @@
 
       // ... keep existing code (form submission and other JavaScript) -->
     </script>
+
+    <script type="module" src="src/js/api-fetch.js"></script>
   </body>
 </html>
