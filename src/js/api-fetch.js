@@ -21,7 +21,6 @@ async function getImage(topic, index = 0) {
         });
 
         const response = await request.json();
-        console.log(topic, ": ", response)
         const imageURL = response["photos"][index]["src"]["large"];
         return imageURL;
     } catch (error) {
