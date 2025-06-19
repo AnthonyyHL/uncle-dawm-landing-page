@@ -7,16 +7,20 @@
     <link rel="icon" href="src/Logo.png" type="image/png">
     <meta name="description" content="Transform your space with premium ceramics, bathroom fixtures, kitchen sinks, and quality tiles. Trusted by homeowners and professionals for 25+ years." />
     <meta name="author" content="Premium Ceramics Store" />
+    
     <meta property="og:title" content="Premium Ceramics - Quality Bathroom & Kitchen Fixtures" />
     <meta property="og:description" content="Transform your space with premium ceramics, bathroom fixtures, kitchen sinks, and quality tiles. Trusted by homeowners and professionals for 25+ years." />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@ceramicstore" />
     <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap">
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -64,7 +68,7 @@
         }
     </script>
 </head>
-<body class="min-h-screen bg-white dark:bg-gray-900 font-sans transition-colors duration-300">
+  <body class="min-h-screen bg-white dark:bg-gray-900 font-sans transition-colors duration-300">
     <!-- Navigation -->
     <nav class="fixed top-0 w-full bg-white/95 dark:bg-gray-900/95 backdrop-blur-sm z-50 border-b border-gray-100 dark:border-gray-800 transition-colors duration-300">
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
@@ -135,7 +139,7 @@
                 </div>
                 
                 <!-- Right Image -->
-                <div class="relative">
+                <div class="relative" id="right-image">
                     <div class="aspect-square rounded-3xl overflow-hidden bg-sage-100 dark:bg-gray-700 transition-colors duration-300">
                         <img src="https://images.unsplash.com/photo-1483058712412-4245e9b90334" alt="Premium ceramic bathroom fixtures" class="w-full h-full object-cover">
                     </div>
@@ -166,7 +170,7 @@
                 </p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div class="group cursor-pointer">
+                <div class="group cursor-pointer" id="bathroom-ceramics">
                     <div class="relative overflow-hidden rounded-3xl bg-sage-50 dark:bg-gray-800 transition-colors duration-300">
                         <img src="https://images.unsplash.com/photo-1483058712412-4245e9b90334" alt="Bathroom Ceramics" class="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -176,7 +180,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="group cursor-pointer">
+                <div class="group cursor-pointer" id="kitchen-ceramics">
                     <div class="relative overflow-hidden rounded-3xl bg-sage-50 dark:bg-gray-800 transition-colors duration-300">
                         <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625" alt="Kitchen Solutions" class="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -186,7 +190,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="group cursor-pointer">
+                <div class="group cursor-pointer" id="tiles">
                     <div class="relative overflow-hidden rounded-3xl bg-sage-50 dark:bg-gray-800 transition-colors duration-300">
                         <img src="https://images.unsplash.com/photo-1524230572899-a752b3835840" alt="Tiles & Flooring" class="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -196,7 +200,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="group cursor-pointer">
+                <div class="group cursor-pointer" id="natural-stones">
                     <div class="relative overflow-hidden rounded-3xl bg-sage-50 dark:bg-gray-800 transition-colors duration-300">
                         <img src="https://images.unsplash.com/photo-1721322800607-8c38375eef04" alt="Natural Stone" class="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -527,5 +531,6 @@
             setupContactForm();
         });
     </script>
-    </body>
+    <script type="module" src="src/js/api-fetch.js"></script>
+  </body>
 </html>
